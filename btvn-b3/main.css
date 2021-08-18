@@ -1,0 +1,123 @@
+body {
+    background-color: #eee;
+    padding: 20px 208px;
+    font-family: Arial;
+}
+.app {
+    border: 1px solid #D6D6D6;
+}
+.header {
+    background-color: white;
+    margin: auto;
+    display: flex;
+    height: 60px;
+}
+.avt img{
+    width: 36px;
+    height: 36px;
+    margin: -10px 0 0 10px;
+}
+.header-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+.header-item {
+    padding: 0 8px;
+    margin-top: 6px;
+}
+.header-item a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+.header-item span {
+    font-size: 20px;
+    font-weight: bold;
+}
+.food {
+    padding: 15px 0 0 20px;
+}
+.food-1 {
+    display: flex;
+}
+.food-2 {
+    display: flex;
+    padding: 10px 0;
+}
+.image {
+    margin-right: 10px;
+}
+img {
+    width: 217px;
+    height: 144px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.text {
+    background-color: white;
+    margin-top: -22px;
+    height: 120px;
+    width: 217px;
+}
+h3 {
+    font-size: 14px;
+    padding: 15px 10px 0;
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    cursor: pointer;
+}
+.text p {
+    color: #777;
+    font-size: 12px;
+    padding: 5px 10px 0px;
+    padding-bottom: 0 !important;
+    margin-top: -12px;
+    -webkit-box-orient: vertical;
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    cursor: pointer;
+}
+.text-place {
+    display: flex;
+    border-top: 1px solid #F6F6F6;
+}
+.text-place i {
+    color: #FF0000 !important;
+    margin-top: 24px;
+    padding: 0 10px;
+    font-size: 13px;
+}
+.text-place h6 {
+    font-weight: 100;
+}
+.header-list-son {
+    background-color: white;
+    position: absolute;
+    list-style: none;
+    width: 182px;
+    padding: 0;
+    margin-top: 19px;
+    display: none;
+    border: 1px solid #E5E5E5;
+}
+.header-item-son {
+    padding: 16px 18px;
+    cursor: pointer;
+}
+.header-item-son a {
+    font-size: 14px;
+    color: #4a4a4a;
+}
+.header-item-son:hover {
+    background-color: #F5F5F5;
+}
+.header-item a:focus + .header-list-son,
+.header-item.focus .header-list-son {
+    display: block;
+}
